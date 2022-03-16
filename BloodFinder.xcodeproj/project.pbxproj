@@ -11,6 +11,7 @@
 		9E726AF127E21EC800C9F757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E726AF027E21EC800C9F757 /* ContentView.swift */; };
 		9E726AF327E21ECA00C9F757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E726AF227E21ECA00C9F757 /* Assets.xcassets */; };
 		9E726AF627E21ECA00C9F757 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E726AF527E21ECA00C9F757 /* Preview Assets.xcassets */; };
+		9E726AFE27E2230200C9F757 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E726AFD27E2230200C9F757 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9E726AF027E21EC800C9F757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E726AF227E21ECA00C9F757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E726AF527E21ECA00C9F757 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E726AFD27E2230200C9F757 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9E726AED27E21EC800C9F757 /* BloodFinder */ = {
 			isa = PBXGroup;
 			children = (
+				9E726AFC27E222F200C9F757 /* Views */,
 				9E726AEE27E21EC800C9F757 /* BloodFinderApp.swift */,
 				9E726AF027E21EC800C9F757 /* ContentView.swift */,
 				9E726AF227E21ECA00C9F757 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				9E726AF527E21ECA00C9F757 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E726AFC27E222F200C9F757 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E726AFD27E2230200C9F757 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E726AFE27E2230200C9F757 /* HomeView.swift in Sources */,
 				9E726AF127E21EC800C9F757 /* ContentView.swift in Sources */,
 				9E726AEF27E21EC800C9F757 /* BloodFinderApp.swift in Sources */,
 			);
